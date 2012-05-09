@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+<link href='http://hacker-newbie.org/images/CoderGreen/on.gif' rel='shortcut icon' type='image/x-icon'/>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name    : HN Template v2
+Design  : Gabby
+Url     : www.allent-gabriell.com
+Images  : HN Crew - special "Om Chikal"
+menu down created by : Artisteer v3.1.0.46558
+-----------------------------------------------
+*/
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none;
+}
+body{background: #000 }
+/*-- link --*/
+.date-outer a{color:#000;text-decoration:none; }
+a{text-decoration:none;color:#fff}
+
+#wrapper{
+overflow:hidden;
+width:892px;
+margin:0 auto;
+border:1px solid #00ff00;
+box-shadow: 0px 0px 15px #55FF55;
+-webkit-box-shadow: 0px 0px 15px #55FF55;
+-moz-box-shadow: 0px 0px 15px #55FF55;
+background-color:#transparent;
+}
+#header_{
+overflow:hidden;
+width:862px;
+padding:15px;
+height:120px;
+background:#transparent;
+background:url(http://hacker-newbie.org/images/logohn.gif) no-repeat;
+font-family: Arial, Helvetica, Sans-Serif;
+font-style: normal;
+font-weight: normal;
+}
+#header{text-align:center; }
+#header_ a{text-decoration:none;}
+#conten{width:892px;float:left;background-color:#transparent}
+#con-center{width:622px;padding:0 5px;float:left;background:transparent;display:inline;background:#000}
+#con-right{width:250px;padding:0 5px;float:left;background:transparent;display:inline;background:#000}
+#footer_entry{
+width:882px;
+float:left;
+margin:0 5px;
+}
+#footer{
+clear:both;
+width:892px;
+background:#000;
+}
+#con-footer{
+width:872px;
+padding:5px 10px;
+margin-top:10px;
+}
+/*-- isi_lain --*/
+h1,h2,h3,h4,ul{margin:0;padding:0 }
+ul,li,a{text-decoration:none; list-style:none;}
+/*-- menu --*/
+/* Created by Artisteer v3.1.0.46558 */
+/* menu structure */
+
+ul.art-hmenu a, ul.art-hmenu a:link, ul.art-hmenu a:visited, ul.art-hmenu a:hover
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.art-hmenu, ul.art-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.art-hmenu li
+{
+   margin: 0;
+   padding: 0;
+   border: 1px solid #00ff00;
+   box-shadow: 0px 0px 3px #55FF55;
+   -webkit-box-shadow: 0px 0px 3px #55FF55;
+   -moz-box-shadow: 0px 0px 3px #55FF55;
+   display: block;
+   float: left;
+   position: relative;
+   z-index: 5;
+   background: none;
+}
+
+ul.art-hmenu li:hover{
+   z-index: 10000;
+   white-space: normal;
+}
+ul.art-hmenu li li{
+   float: none;
+   width: auto;
+}
+ul.art-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+ul.art-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+ul.art-hmenu:after, ul.art-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+ul.art-hmenu, ul.art-hmenu ul {
+   min-height: 0;
+}
+
+ul.art-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   padding: 10px 30px 30px 30px;
+   margin: -10px 0 0 -30px;
+}
+
+ul.art-hmenu ul.art-hmenu-left-to-right {
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+ul.art-hmenu ul.art-hmenu-right-to-left {
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+ul.art-hmenu ul ul
+{
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+}
+
+ul.art-hmenu ul ul.art-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+}
+
+ul.art-hmenu ul ul.art-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 30px 10px 30px 30px;
+   margin: -30px -10px 0 0;
+}
+
+ul.art-hmenu li li:hover>ul.art-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+ul.art-hmenu li li:hover>ul.art-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+ul.art-hmenu{
+   position:relative;
+   padding: 4px 4px 4px 4px;
+   float: left;
+}
+
+/* end menu structure */
+
+/* menu bar */
+
+.art-nav
+{
+   margin:0 auto;
+   min-height: 30px;
+   z-index: 100;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.art-nav{
+   background-image: url('gabby');
+}
+.art-nav:before{
+   right: 0;
+}
+.art-nav:after{
+   width: 0;
+}
+/* end menu bar */
+.art-nav-outer{
+   position:absolute;
+  
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+ul.art-hmenu>li>a
+{
+   position: relative;
+   display: block;
+   height: 22px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #000000;
+   padding: 0 11px;
+   line-height: 22px;
+   text-align: center;
+}
+
+ul.art-hmenu>li>a:before, ul.art-hmenu>li>a:after
+{
+   position: absolute;
+   display: block;
+   content:' ';
+   top: 0;
+   bottom:0;
+   z-index: -1;
+   background-image: url('http://hacker-newbie.org/images/CoderGreen/thead.png');
+}
+
+ul.art-hmenu>li>a:before
+{
+   left: 0;
+   right: 11px;
+   background-position: top left;
+}
+
+ul.art-hmenu>li>a:after
+{
+   width: 11px;
+   right: 0;
+   background-position: top right;
+}
+
+.art-hmenu a, .art-hmenu a:link, .art-hmenu a:visited, .art-hmenu a:hover
+{
+   font-weight: bold;
+   font-size: 11px;
+   text-align: left;
+   text-decoration: none;
+}
+
+ul.art-hmenu>li>a:hover:before, ul.art-hmenu>li:hover>a:before {
+   background-position: center left;
+}
+ul.art-hmenu>li>a:hover:after, ul.art-hmenu>li:hover>a:after {
+   background-position: center right;
+}
+ul.art-hmenu>li>a:hover, ul.art-hmenu>li:hover>a{
+   color: #24001B;
+}
+
+/* end MenuItem */
+
+/* begin MenuSeparator */
+ul.art-hmenu>li:before
+{
+   position:absolute;
+   display: block;
+   content:' ';
+   top:0;
+   left:  -14px;
+   width:14px;
+   height: 22px;
+   background: url('http://2.bp.blogspot.com/-mf4CGtkH6dA/TyNOG-64zhI/AAAAAAAAAJg/HPEpaVAhNoc/s1600/menuseparator.png') center center no-repeat;
+}
+
+ul.art-hmenu>li {
+   margin-left:14px;
+}
+ul.art-hmenu>li:first-child {
+   margin-left:0;
+}
+
+ul.art-hmenu>li:first-child:before{
+   display:none;
+}
+/* end MenuSeparator */
+
+/* begin MenuSubItem */
+.art-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 24px;
+   background-image: url('http://hacker-newbie.org/images/CoderGreen/thead.png');
+   background-position: left top;
+   background-repeat: repeat-x;
+   border-width: 0;
+   border-style: solid;
+   min-width: 7em;
+   text-align: left;
+   text-decoration: none;
+   line-height: 24px;
+   color: #0F0500;
+   margin:0;
+   padding: 0 12px;
+}
+
+.art-hmenu ul>li:first-child>a
+{
+   border-top-width: 0;
+}
+
+.art-hmenu ul a:link, .art-hmenu ul a:visited, .art-hmenu ul a:hover, .art-hmenu ul a:active
+{
+   text-align: left;
+   text-decoration: none;
+   line-height: 24px;
+   color: #0F0500;
+   margin:0;
+   padding: 0 12px;
+}
+
+.art-hmenu ul li a:hover
+{
+   color: #fff;
+   background-position: left bottom;
+   border-top-width: 0 !important;
+}
+
+.art-hmenu ul li:hover>a
+{
+   color: #fff;
+   background-position: left bottom;
+   border-top-width: 0 !important;
+}
+.cleared
+{
+   display:block;
+   clear: both;
+   float: none;
+   margin: 0;
+   padding: 0;
+   border: none;
+   font-size: 0;
+   height:0;
+   overflow:hidden;
+}
+/* end MenuSubItem */
+
+/*-- isi side --*/
+#con-right>div .widget,#con-left>div .widget{
+border:1px solid #00ff00;
+box-shadow: 0px 0px 3px #55FF55;
+-webkit-box-shadow: 0px 0px 3px #55FF55;
+-moz-box-shadow: 0px 0px 3px #55FF55;
+background-color:#3D3D3D;
+padding:8px;
+margin-top:10px;
+font-family: Arial, Helvetica, Sans-Serif;
+font-style: normal;
+font-weight: normal;
+border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+}
+
+#con-left h2,#con-right h2{
+overflow:hidden;
+white-space: nowrap;
+font-size:13px;
+background:url(http://hacker-newbie.org/images/CoderGreen/thead.png) repeat center left;
+line-height:30px;
+border:1px solid #00ff00;
+box-shadow: 0px 0px 3px #55FF55;
+-webkit-box-shadow: 0px 0px 3px #55FF55;
+-moz-box-shadow: 0px 0px 3px #55FF55;
+text-align:center;
+border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+}
+#con-right>div .widget-content,#con-left>div .widget-content{
+background-color:#3D3D3D;
+border:1px solid #00ff00;
+font-size:12px;
+padding:15px;
+margin-top:10px;
+border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+}
+/*--poss----*/
+h2.date-header{
+float:right;
+font-size:10px;
+margin-right:20px;
+padding-top:10px
+}
+h3.post-title {
+color:#000000;
+font-family: Arial, Helvetica, Sans-Serif;
+background:url(http://hacker-newbie.org/images/CoderGreen/thead.png) repeat center left;
+border:1px solid #00ff00;
+box-shadow: 0px 0px 5px #55FF55;
+-webkit-box-shadow: 0px 0px 5px #55FF55;
+-moz-box-shadow: 0px 0px 5px #55FF55;
+padding:0px 0px 0px 25px;
+font-size:20px;
+}
+h3.post-title a{
+color:#000000;
+font-family: Arial, Helvetica, Sans-Serif;
+text-decoration:none;
+font-size:20px;
+}
+.post-header{margin-top:10px }
+.post-outer{
+border:1px solid #00ff00;
+box-shadow: 0px 0px 5px #55FF55;
+-webkit-box-shadow: 0px 0px 5px #55FF55;
+-moz-box-shadow: 0px 0px 5px #55FF55;
+background:#transparent;
+margin-top:0px;
+margin-top:15px;
+background:;
+padding:10px;
+border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+}
+.post-header{
+color:#C0C0C0;
+font-size:11px;
+font-family: Arial, Helvetica, Sans-Serif;
+font-style:italic;
+font-weight:500;
+}
+.post-author{
+color:#C0C0C0;
+background:url(https://sites.google.com/site/jrooooot/gambar/manusia.png) no-repeat left center;padding-left:18px;padding-top:2px;padding-bottom:2px
+}
+.post-timestamp {
+color:#C0C0C0;
+background:url(https://sites.google.com/site/jrooooot/gambar/datapos.png) no-repeat left center;margin-left:20px;padding-left:18px;padding-top:2px;padding-bottom:2px;
+}
+.post-timestamp a{color:#fff }
+.post-comment-link a{
+color:#fff;
+background:url(https://sites.google.com/site/jrooooot/gambar/comentar.png) no-repeat left center;padding-left:18px;
+}
+.post-labels{
+color:#C0C0C0;
+background:url(https://sites.google.com/site/jrooooot/gambar/labelan.png) no-repeat top left;padding-left:18px;padding-top:2px;padding-bottom:2px
+}
+.post-labels a{color:#fff; }
+.post-body{
+font-family: Arial, Helvetica, Sans-Serif;
+margin-top:10px;
+border:1px solid #00ff00;
+padding:10px;
+background-color:#3D3D3D;
+font-size:13px
+
+}
+.post-body img{
+padding:5px;
+border:1px solid #000000
+}
+.post-footer{
+margin-top:10px;
+padding:5px 5px 10px 5px;
+font-size:12px;
+font-style:italic;
+}
+.comment-link{
+text-decoration:none;
+color:#C0C0C0;;
+margin-left:20px
+}
+.jump-link a{
+color:#FFFFFF;
+display:block;
+float:right;
+font-size:12px;
+margin-right:0px;
+margin-top:-24px;
+cursor:pointer;
+}
+.jump-link a:hover{
+display:block;
+float:right;
+font-size:12px;
+margin-right:-0px;
+margin-top:-23px;
+}
+.continue{
+padding-bottom:10px;padding-top:10px
+}
+/*-- comen --*/
+.comments{
+background:transparent;
+padding:10px
+}
+.comments h4{margin:0px }
+.comments a{
+text-decoration:none;
+color:#00ff00
+}
+.comments-block{
+padding-bottom:5px;
+}
+.comment-author{
+padding:5px 5px 5px 10px;
+background-color:#000000;
+font-family:arial;
+font-size:12px;
+font-weight:800;
+font-family:
+}
+.comment-body{
+color:#E2E2E2;
+padding:10px 10px  0px 10px;
+font-size:12px;
+font-family: Arial, Helvetica, Sans-Serif;
+margin-top:-17px;
+border-bottom:1px solid #00ff00;
+border-right:1px solid #00ff00;
+border-left:1px solid #00ff00;
+border-radius: 0px 0px 10px 10px;
+-ms-border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+-khtml-border-radius: 0px 0px 10px 10px;
+}
+.comment-footer{
+font-size:10px;
+font-family:sans-serif;
+padding-bottom:5px
+}
+.comment-timestamp a{
+color:#FF8000;
+}
+.comments a:hover{
+text-decoration:underline;
+}
+.avatar-image-container {
+background: url(http://hacker-newbie.org/images/CoderGreen/on.gif) no-repeat scroll center center;
+}
+.avatar-image-container img{width:16px;height:16px}
+
+/*-- navigation --*/
+.blog-pager{color:#C0C0C0}
+.blog-pager a,.home-link,.blog-feeds,.feed-links{font-size:12px;color:#C0C0C0}
+.blog-feeds a,.feed-links a,.home-link{font-size:11px;color:#fff; }
+.feed-links{ }
+/*-- footer_entry_dalam -*/
+#footer_entry_dalam{width:220.5px;float:left;}
+/*-- isi footer --*/
+#footer_entry_dalam>div .widget{
+background-color:#transparent;
+padding:5px 5px;
+margin-top:5px;
+font-family: Arial, Helvetica, Sans-Serif;
+font-style: normal;
+font-weight: normal;
+}
+
+#footer_entry_dalam h2{
+overflow:hidden;
+white-space: nowrap;
+font-size:13px;
+background:url(http://hacker-newbie.org/images/CoderGreen/thead.png)repeat center left;
+line-height:30px;
+border:1px solid #00ff00;
+box-shadow: 0px 0px 3px #55FF55;
+-webkit-box-shadow: 0px 0px 3px #55FF55;
+-moz-box-shadow: 0px 0px 3px #55FF55;
+text-align:center;
+border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+}
+#footer_entry_dalam>div .widget-content{
+background-color:#3D3D3D;
+border:1px solid #00ff00;
+font-size:12px;
+padding:15px;
+margin-top:5px;
+border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+}
+/*----- next halaman ----*/
+.blog-pager{
+height:30px
+}
+.showpageNum a {
+padding: 3px 8px;
+margin:0 4px;
+text-decoration: none;
+color:#00ff00;
+font-weight: bold;
+border:1px solid #00ff00;
+border-radius:2px;
+font-size:11px;
+font-family: Arial, Helvetica, Sans-Serif;
+}
+.showpageOf {
+margin:0 8px 0 0;
+color:#00ff00;
+font-size:11px;
+font-family: Arial, Helvetica, Sans-Serif;
+}
+.showpageNum a:hover {
+font-size:11px;
+font-family: Arial, Helvetica, Sans-Serif;
+border:1px solid ;
+border-radius:2px;
+color:#fff;
+font-weight: bold;
+text-decoration: none;
+background:#000000;
+}
+.showpagePoint {
+font-size:11px;
+font-family: Arial, Helvetica, Sans-Serif;
+color:#00ff00;
+padding: 3px 8px;
+margin:2px;
+font-weight:900;
+border:1px solid #00ff00;/*target yg sudah di tuju alias pixed*/
+background:#transparent;
+border-radius:2px;
+text-decoration: none;
+}
+.Abox {
+margin-bottom:0px;
+}
+/*----- end_next halaman ----*/
+.copy{font-family: Arial, Helvetica, Sans-Serif;font-size:11px;text-align:center;color:#fff}
+.copy a{color:#FFFFFF }
+.post-body:hover {background:#000 url(http://img834.imageshack.us/img834/1130/wallpaperxba.jpg) no-repeat center;color:#ff0000;}
+]]></b:skin>
+<script type='text/javascript'>var thumbnail_mode = &quot;no-float&quot; ;
+summary_noimg = 220;
+summary_img = 220;
+img_thumb_height = 100;
+img_thumb_width = 157;
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+function removeHtmlTag(strx,chop){
+if(strx.indexOf("<")!=-1)
+{
+var s = strx.split("<");
+for(var i=0;i<s.length;i++){
+if(s[i].indexOf(">")!=-1){
+s[i] = s[i].substring(s[i].indexOf(">")+1,s[i].length);
+}
+}
+strx = s.join("");
+}
+chop = (chop < strx.length-1) ? chop : strx.length-2;
+while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++;
+strx = strx.substring(0,chop-1);
+return strx+'...';
+}
+
+function createSummaryAndThumb(pID){
+var div = document.getElementById(pID);
+var imgtag = "";
+var img = div.getElementsByTagName("img");
+
+if(img.length<=0) {
+imgtag = '<span style="float:left;margin-right:5px;"><img src="http://i879.photobucket.com/albums/ab357/allent_viona/logo1io.jpg" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/></span>';
+var summ = summary_noimg;
+}
+
+if(img.length>=1) {
+imgtag = '<span style="float:left;margin-right:15px;"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/></span>';
+summ = summary_img;
+}
+
+var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+div.innerHTML = summary;
+}
+//]]>
+</script>
+&lt;!--[if IE 7]&gt;
+&lt;style&gt;.date-posts{background-color:#FFFFFF }
+h2.date-header{padding-top:30px}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+
+&lt;!--[if IE 6]&gt;
+&lt;style&gt;.date-posts{background-color:#FFFFFF }
+#con-right{
+display:inline;
+background-color:#transparent;
+font-size:12px;
+margin-top:10px;
+font-family: Arial, Helvetica, Sans-Serif;
+font-style: normal;
+font-weight: normal;
+}
+#footer_entry_dalam{
+font-size:12px;
+background-color:#transparent;
+font-family: Arial, Helvetica, Sans-Serif;
+font-style: normal;
+font-weight: normal;
+}
+h2.date-header{padding-top:30px}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js' type='text/javascript'/>
+<script type='text/javascript'>
+$(document).ready(function() {
+$('a').hover(function() { //mouse in
+
+$(this).animate({ marginLeft: '12px' }, 400);
+}, function() { //mouse out
+$(this).animate({ marginLeft: 0 }, 400);
+});
+});</script>
+  </head>
+<script type='text/javascript'>
+//<![CDATA[
+var rate = 20;
+if (document.getElementById)
+window.onerror=new Function("return true")
+var objActive; // The object which event occured in
+var act = 0; // Flag during the action
+var elmH = 0; // Hue
+var elmS = 128; // Saturation
+var elmV = 255; // Value
+var clrOrg; // A color before the change
+var TimerID; // Timer ID
+if (document.all) {
+document.onmouseover = doRainbowAnchor;
+document.onmouseout = stopRainbowAnchor;
+}
+else if (document.getElementById) {
+document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+document.onmouseover = Mozilla_doRainbowAnchor;
+document.onmouseout = Mozilla_stopRainbowAnchor;
+}
+function doRainbow(obj)
+{
+if (act == 0) {
+act = 1;
+if (obj)
+objActive = obj;
+else
+objActive = event.srcElement;
+clrOrg = objActive.style.color;
+TimerID = setInterval("ChangeColor()",100);
+}
+}
+function stopRainbow()
+{
+if (act) {
+objActive.style.color = clrOrg;
+clearInterval(TimerID);
+act = 0;
+}
+}
+function doRainbowAnchor()
+{
+if (act == 0) {
+var obj = event.srcElement;
+while (obj.tagName != 'A' && obj.tagName != 'BODY') {
+obj = obj.parentElement;
+if (obj.tagName == 'A' || obj.tagName == 'BODY')
+break;
+}
+if (obj.tagName == 'A' && obj.href != '') {
+objActive = obj;
+act = 1;
+clrOrg = objActive.style.color;
+TimerID = setInterval("ChangeColor()",100);
+}
+}
+}
+function stopRainbowAnchor()
+{
+if (act) {
+if (objActive.tagName == 'A') {
+objActive.style.color = clrOrg;
+clearInterval(TimerID);
+act = 0;
+}
+}
+}
+function Mozilla_doRainbowAnchor(e)
+{
+if (act == 0) {
+obj = e.target;
+while (obj.nodeName != 'A' && obj.nodeName != 'BODY') {
+obj = obj.parentNode;
+if (obj.nodeName == 'A' || obj.nodeName == 'BODY')
+break;
+}
+if (obj.nodeName == 'A' && obj.href != '') {
+objActive = obj;
+act = 1;
+clrOrg = obj.style.color;
+TimerID = setInterval("ChangeColor()",100);
+}
+}
+}
+function Mozilla_stopRainbowAnchor(e)
+{
+if (act) {
+if (objActive.nodeName == 'A') {
+objActive.style.color = clrOrg;
+clearInterval(TimerID);
+act = 0;
+}
+}
+}
+function ChangeColor()
+{
+objActive.style.color = makeColor();
+}
+function makeColor()
+{
+// Don't you think Color Gamut to look like Rainbow?
+// HSVtoRGB
+if (elmS == 0) {
+elmR = elmV; elmG = elmV; elmB = elmV;
+}
+else {
+t1 = elmV;
+t2 = (255 - elmS) * elmV / 255;
+t3 = elmH % 60;
+t3 = (t1 - t2) * t3 / 60;
+if (elmH < 60) {
+elmR = t1; elmB = t2; elmG = t2 + t3;
+}
+else if (elmH < 120) {
+elmG = t1; elmB = t2; elmR = t1 - t3;
+}
+else if (elmH < 180) {
+elmG = t1; elmR = t2; elmB = t2 + t3;
+}
+else if (elmH < 240) {
+elmB = t1; elmR = t2; elmG = t1 - t3;
+}
+else if (elmH < 300) {
+elmB = t1; elmG = t2; elmR = t2 + t3;
+}
+else if (elmH < 360) {
+elmR = t1; elmG = t2; elmB = t1 - t3;
+}
+else {
+elmR = 0; elmG = 0; elmB = 0;
+}
+}
+elmR = Math.floor(elmR).toString(16);
+elmG = Math.floor(elmG).toString(16);
+elmB = Math.floor(elmB).toString(16);
+if (elmR.length == 1) elmR = "0" + elmR;
+if (elmG.length == 1) elmG = "0" + elmG;
+if (elmB.length == 1) elmB = "0" + elmB;
+elmH = elmH + rate;
+if (elmH >= 360)
+elmH = 0;
+return '#' + elmR + elmG + elmB;
+}
+//]]></script>
+  <body>
+<div id='wrapper'>
+<!-- menu bar Created by Artisteer v3.1.0.46558 -->
+<div class='art-bar art-nav'>
+<div class='art-nav-outer'>
+    <ul class='art-hmenu'>
+        <li>
+            <a class='active' expr:href='data:blog.homepageUrl'>Home</a>
+        </li>    
+        <li>
+            <a href='#'>Menu Item</a>
+            <ul>
+                <li>
+                    <a href='#'>Menu Subitem 1</a>
+            <ul>
+                <li>
+                    <a href='#'>Menu Subitem 1.1</a>
+                    <ul>
+                      <li>
+                        <a href='#'>Menu Subitem 1.1.1</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href='#'>Menu Subitem 1.2</a>
+
+                </li>
+                <li>
+                    <a href='#'>Menu Subitem 1.3</a>
+
+                </li>
+            </ul>
+
+                </li>
+                <li>
+                    <a href='#'>Menu Subitem 2</a>
+
+                </li>
+                <li>
+                    <a href='#'>Menu Subitem 3</a>
+
+                </li>
+            </ul>
+        </li>    
+        <li>
+            <a href='#'>Menu item 1</a>
+        </li>    
+        <li>
+            <a href='#'>Menu item 2</a>
+        </li>    
+        <li>
+            <a href='#'>Menu item 3</a>
+        </li>
+            <li>
+            <a href='#'>Menu item 4</a>
+            </li>
+            <li>
+            <a href='#'>Menu item 5</a>
+            </li>
+            <li>
+            <a href='#'>Menu item 6</a>
+            </li>
+                  <li>
+            <a href='#'>Menu item 7</a>
+            </li>
+        
+            
+    </ul>
+</div>
+</div>
+<div class='cleared reset-box'/>
+<!-- end menu bar down -->
+<div id='header_'>
+<!-- header -->
+<b:section class='header' id='header' maxwidgets='1'>
+<b:widget id='Header1' locked='true' title='HN test 2 (Header)' type='Header'/>
+</b:section>
+<!-- end_header -->
+</div>
+<div id='conten'>
+<div id='con-center'>
+<!--poss -->
+<b:section class='main' id='main' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog'/>
+</b:section>
+<!-- end_poss -->
+</div>
+<div id='con-right'>
+<!-- side2 -->
+<b:section class='main_side2' id='main_side2'>
+<b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'/>
+<b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch'/>
+<b:widget id='FollowByEmail1' locked='false' title='Follow by Email' type='FollowByEmail'/>
+<b:widget id='Label1' locked='false' title='Labels' type='Label'/>
+<b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts'/>
+</b:section>
+<!-- end_side2 -->
+</div>
+</div>
+<div id='footer_entry'>
+   <div id='footer_entry_dalam'><b:section class='footer_entry_dalam_1' id='footer_entry_dalam_1'>
+<b:widget id='Label4' locked='false' title='Labels' type='Label'/>
+</b:section></div>
+   <div id='footer_entry_dalam'><b:section class='footer_entry_dalam_2' id='footer_entry_dalam_2'>
+<b:widget id='Label5' locked='false' title='Labels' type='Label'/>
+</b:section></div>
+   <div id='footer_entry_dalam'><b:section class='footer_entry_dalam_3' id='footer_entry_dalam_3'>
+<b:widget id='Label3' locked='false' title='Labels' type='Label'/>
+</b:section></div>
+   <div id='footer_entry_dalam'><b:section class='footer_entry_dalam_4' id='footer_entry_dalam_4'>
+<b:widget id='Label2' locked='false' title='Labels' type='Label'/>
+</b:section></div>
+</div>
+<div id='footer'>
+<div id='con-footer'>
+<!-- copy -->
+<div class='copy'>
+<center><a class='home-link'>
+</a>Template Design by <a href='http://www.allent-gabriell.com' target='_blank'><font color='#00ff00'><blink>.::Gabby::.</blink></font></a></center>  
+<b:section class='atrybut' id='atrybut'>
+<b:widget id='HTML2' locked='false' title='' type='HTML'/>
+<b:widget id='HTML1' locked='false' title='' type='HTML'/>
+<b:widget id='Feed2' locked='false' title='Recent Posts' type='Feed'/>
+<b:widget id='LinkList98' locked='false' title='Footer Links' type='LinkList'/>
+</b:section>
+</div>
+<!-- end_copy -->
+</div>
+</div>
+</div>
+<!--Page Navigation -->
+<script type='text/javascript'>
+var home_page=&quot;/&quot;;
+var urlactivepage=location.href;
+var postperpage=4;
+var numshowpage=4;
+var upPageWord ='Previous';
+var downPageWord ='Next';
+</script>
+<script type='text/javascript'>
+
+//<![CDATA[
+
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('5 G;5 i;5 b;5 n;1f();x 1g(15){5 6=\'\';H=I(K/2);3(H==K-H){K=H*2+1}J=b-H;3(J<1)J=1;o=I(15/j)+1;3(o-1==15/j)o=o-1;L=J+K-1;3(L>o)L=o;6+="<4 e=\'1y\'>1z "+b+\' 1A \'+o+"</4>";5 16=I(b)-1;3(b>1){3(b==2){3(i=="w"){6+=\'<4 e="1B"><a f="\'+y+\'">\'+M+\'</a></4>\'}c{6+=\'<4 e="k"><a f="/r/s/\'+n+\'?&7-l=\'+j+\'">\'+M+\'</a></4>\'}}c{3(i=="w"){6+=\'<4 e="k"><a f="#" z="N(\'+16+\');A B">\'+M+\'</a></4>\'}c{6+=\'<4 e="k"><a f="#" z="O(\'+16+\');A B">\'+M+\'</a></4>\'}}}1h(5 g=J;g<=L;g++){3(b==g){6+=\'<4 e="1C">\'+g+\'</4>\'}c 3(g==1){3(i=="w"){6+=\'<4 e="k"><a f="\'+y+\'">1</a></4>\'}c{6+=\'<4 e="k"><a f="/r/s/\'+n+\'?&7-l=\'+j+\'">1</a></4>\'}}c{3(i=="w"){6+=\'<4 e="k"><a f="#" z="N(\'+g+\');A B">\'+g+\'</a></4>\'}c{6+=\'<4 e="k"><a f="#" z="O(\'+g+\');A B">\'+g+\'</a></4>\'}}}5 17=I(b)+1;3(b<o){3(i=="w"){6+=\'<4 e="k"><a f="#" z="N(\'+17+\');A B">\'+1i+\'</a></4>\'}c{6+=\'<4 e="k"><a f="#" z="O(\'+17+\');A B">\'+1i+\'</a></4>\'}}5 C=u.1D("C");5 18=u.1E("1F-1G");1h(5 p=0;p<C.P;p++){C[p].1j=6}3(C&&C.P>0){6=\'\'}3(18){18.1j=6}}x 1a(Q){5 R=Q.R;5 1k=I(R.1H$1I.$t,10);1g(1k)}x 1f(){5 d=m;3(d.9("/r/s/")!=-1){3(d.9("?S-7")!=-1){n=d.D(d.9("/r/s/")+14,d.9("?S-7"))}c{n=d.D(d.9("/r/s/")+14,d.9("?&7"))}}3(d.9("?q=")==-1&&d.9(".6")==-1){3(d.9("/r/s/")==-1){i="w";3(m.9("#E=")!=-1){b=m.D(m.9("#E=")+8,m.P)}c{b=1}u.1l("<h T=\\""+y+"U/V/W?7-l=1&X=Y-Z-h&11=1a\\"><\\/h>")}c{i="s";3(d.9("&7-l=")==-1){j=1J}3(m.9("#E=")!=-1){b=m.D(m.9("#E=")+8,m.P)}c{b=1}u.1l(\'<h T="\'+y+\'U/V/W/-/\'+n+\'?X=Y-Z-h&11=1a&7-l=1" ><\\/h>\')}}}x N(F){12=(F-1)*j;G=F;5 13=u.1m(\'1n\')[0];5 v=u.1o(\'h\');v.1p=\'1q/1r\';v.1s("T",y+"U/V/W?1t-1u="+12+"&7-l=1&X=Y-Z-h&11=1b");13.1v(v)}x O(F){12=(F-1)*j;G=F;5 13=u.1m(\'1n\')[0];5 v=u.1o(\'h\');v.1p=\'1q/1r\';v.1s("T",y+"U/V/W/-/"+n+"?1t-1u="+12+"&7-l=1&X=Y-Z-h&11=1b");13.1v(v)}x 1b(Q){1c=Q.R.1K[0];5 1w=1c.1x.$t.D(0,19)+1c.1x.$t.D(1L,1M);5 1d=1N(1w);3(i=="w"){5 1e="/r?S-7="+1d+"&7-l="+j+"#E="+G}c{5 1e="/r/s/"+n+"?S-7="+1d+"&7-l="+j+"#E="+G}1O.f=1e}',62,113,'|||if|span|var|html|max||indexOf||nomerhal|else|thisUrl|cla?ss|href|jj|script|jenis|postperpage|showpageNum|results|urlactivepage|lblname1|m?aksimal|||search|label||document|newInclude|page|function|home_page|onclick|retu?rn|false|pageArea|substring|PageNo|numberpage|nopage|nomerkiri|parseInt|mulai|nu?mshowpage|akhir|upPageWord|redirectpage|redirectlabel|length|root|feed|updated|s?rc|feeds|posts|summary|alt|json|in||callback|jsonstart|nBody||banyakdata|prevnom?er|nextnomer|blogPager||hitungtotaldata|finddatepost|post|timestamp|alamat|halam?anblogger|loophalaman|for|downPageWord|innerHTML|totaldata|write|getElementsByTa?gName|head|createElement|type|text|javascript|setAttribute|start|index|appendChi?ld|timestamp1|published|showpageOf|Page|of|showpage|showpagePoint|getElementsByN?ame|getElementById|blog|pager|openSearch|totalResults|20|entry|23|29|encodeURICo?mponent|location'.split('|'),0,{}))
+
+//]]>
+</script>
+<!--Page Navigation Ends -->
+</body>
+</html>
